@@ -15,7 +15,7 @@ If you are developing a production application, we recommend using TypeScript wi
 ```
 # only once
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash &&
-# beelow command not needed if "grep nvm ~/.bashrc" displays nvm details and "command -v nvm" displays nvm
+# beelow command not needed if "grep nvm ~/.bashrc" :displays nvm details and "command -v nvm" :displays nvm
 export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" &&
 nvm install --lts
 # for every new environment
